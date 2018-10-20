@@ -25,28 +25,6 @@ public class NavigationController implements Serializable {
     private FacesContext fc = FacesContext.getCurrentInstance();
     private Map<String, String> params = fc.getExternalContext().getRequestParameterMap();
 
-//    public String showPage() {
-//
-//        pageId = getPageIDParam();
-//
-//        if(pageId == null) {
-//
-//            System.out.println("pageId:" + pageId +  "..." + name);
-//            System.out.println("pageId:" + pageId);
-//            return "page1";
-//        }
-//
-//        if(pageId.equals("1")) {
-//
-//            System.out.println("pageId:" + pageId +  "..." + name);
-//            return "page1";
-//        }
-//
-//        else {
-//            System.out.println("pageId:" + pageId);
-//            return "index";
-//        }
-//    }
 
     public String outcome(){
 
