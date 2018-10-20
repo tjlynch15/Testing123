@@ -1,0 +1,84 @@
+
+.presidentTable {
+    border-collapse:collapse;
+    border-bottom:1px solid #000000;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.presidentTableHeader {
+    text-align:center;
+    background:none repeat scroll 0 0 #B5B5B5;
+    border-bottom:1px solid #000000;
+    border-top:1px solid #000000;
+    padding:2px;
+}
+
+.presidentTableOddRow {
+    text-align:center;
+    background:none repeat scroll 0 0 #FFFFFF;
+}
+
+.presidentTableEvenRow {
+    text-align:center;
+    background:none repeat scroll 0 0 #D3D3D3;
+}
+
+
+h3 {
+    /*float: right;*/
+    /*display: block;*/
+    width: auto;
+    margin: auto;
+    text-align: center;
+    color: magenta;
+}
+
+h2 {
+    /*float: right;*/
+    background-color: white;
+    text-align: center;
+    display: block;
+    width: auto;
+    margin: auto;
+    border: 2px solid black;
+    color: blue;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: lightgray;
+}
+
+div {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.lowerCase {
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.presImage {
+    margin: auto auto;
+    display: block;
+    box-shadow: 8px 8px 8px #999;
+
+    vertical-align: middle;
+    width: 180px;
+    height: 180px;
+}
+
+.form {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}

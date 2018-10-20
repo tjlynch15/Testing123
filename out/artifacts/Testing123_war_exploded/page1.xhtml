@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns = "http://www.w3.org/1999/xhtml"
+      xmlns:f = "http://java.sun.com/jsf/core"
+      xmlns:h = "http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>Page 1</title>
+    <h:outputStylesheet library="css" name="styles.css"/>
+</h:head>
+
+<h:body>
+    <!--<h2 class="lowerCase">This is Page 1</h2>-->
+
+    <br> </br>
+
+    <h2 > <h:outputText value="#{param['first']}" > </h:outputText>&nbsp;
+        <h:outputText value="#{param['last']}"/></h2>
+
+    <br> </br>
+
+    <h3><h:outputText value="#{navigationController.name}.jpeg"/></h3>
+
+    <br> </br>
+
+    <h:graphicImage library="images" name= "#{navigationController.name}.jpeg" styleClass="presImage"/>
+
+    <br> </br>
+
+    <h:form styleClass="form">
+        <div>
+        <h:commandButton action = "index?faces-redirect = true"
+                         value = "Back To Home Page" />
+        </div>
+    </h:form>
+
+</h:body>
+
+</html>
+

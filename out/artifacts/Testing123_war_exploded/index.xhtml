@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--<html xmlns="http://www.w3.org/1999/xhtml"-->
+<!--xmlns:h="http://xmlns.jcp.org/jsf/html"-->
+<!--xmlns:ui="http://xmlns.jcp.org/jsf/facelets"-->
+<!--xmlns:f="http://xmlns.jcp.org/jsf/core">-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+
+<h:head>
+    <title>Presidents</title>
+    <h:outputStylesheet library="css" name="styles.css"/>
+</h:head>
+
+<br> </br>
+<h:body>
+    <h2>JDBC Integration - Presidents</h2>
+
+    <br> </br>
+    <br> </br>
+
+    <h:dataTable value="#{userData.presidents}" var="c"
+                 styleClass="presidentTable"
+                 headerClass="presidentTableHeader"
+                 rowClasses="presidentTableOddRow,presidentTableEvenRow">
+
+        <h:column><f:facet name="header">First Name</f:facet>
+            <h:form>
+            <h:commandLink value="#{c.firstName}" action="#{navigationController.outcome}">
+                <f:param name="first" value="#{c.firstName}"/>
+                <f:param name="last" value="#{c.lastName}"/>
+            </h:commandLink>
+            </h:form>
+        </h:column>
+
+
+        <h:column><f:facet name="header">Last Name</f:facet>
+           <h:outputText value="#{c.lastName}" > </h:outputText>
+        </h:column>
+
+
+        <h:column><f:facet name="header">Begin Term</f:facet>
+            <h:outputText value="#{c.beginTerm}" > </h:outputText>
+        </h:column>
+
+
+        <h:column><f:facet name="header">End Term</f:facet>
+            <h:outputText value="#{c.endTerm}" > </h:outputText>
+        </h:column>
+
+    </h:dataTable>
+
+    <br> </br>
+
+
+</h:body>
+
+
+</html>
