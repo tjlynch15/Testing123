@@ -4,9 +4,7 @@ package example.com.testing123;
  * Created by terry on 10/17/18
  */
 
-import javax.annotation.PostConstruct;
-//import javax.faces.annotation.ManagedProperty;
-import javax.faces.bean.ManagedProperty;
+
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 import javax.faces.context.FacesContext;
@@ -20,7 +18,7 @@ import java.util.Map;
 public class NavigationController implements Serializable {
 
     private String name;
-    private String pageId;
+    private int getNameNum = 0;
 
     private FacesContext fc = FacesContext.getCurrentInstance();
     private Map<String, String> params = fc.getExternalContext().getRequestParameterMap();
@@ -34,28 +32,15 @@ public class NavigationController implements Serializable {
     }
 
     //get value from "f:param"
-    public String getNameParam(){
+    private String getNameParam(){
 
         return params.get("last");
     }
 
-
-    //get value from "f:param"
-    public String getPageIDParam(){
-
-        return params.get("pageID");
-    }
-
-
-    public String getPageId() {
-        return pageId;
-    }
-
-    public void setPageId(String pageId) {
-        this.pageId = pageId;
-    }
-
     public String getName() {
+
+        System.out.println("getName " + getNameNum);
+        getNameNum++;
         return name;
     }
 

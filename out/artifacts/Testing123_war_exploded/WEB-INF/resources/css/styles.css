@@ -32,7 +32,7 @@ h3 {
     width: auto;
     margin: auto;
     text-align: center;
-    color: magenta;
+    color: midnightblue;
 }
 
 h2 {
@@ -43,7 +43,7 @@ h2 {
     width: auto;
     margin: auto;
     border: 2px solid black;
-    color: blue;
+    color: midnightblue;
 }
 
 body {
@@ -59,6 +59,18 @@ div {
     margin-right: auto;
     text-align: center;
     vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: dotted 1px midnightblue;
+    color: blueviolet;
+}
+
+a:hover {
+    text-decoration: none;
+    color: DarkGreen;
+    border-bottom: solid 1px DarkGreen;
 }
 
 .lowerCase {
