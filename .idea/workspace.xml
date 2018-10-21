@@ -6,8 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ea91e46-e977-4f88-adac-2e09702a9b5d" name="Default Changelist" comment="minor updates">
+    <list default="true" id="0ea91e46-e977-4f88-adac-2e09702a9b5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/resources/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/css/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,18 +93,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="171" />
+          <entry key="css" value="176" />
           <entry key="java" value="692" />
-          <entry key="txt" value="49" />
+          <entry key="txt" value="51" />
           <entry key="xhtml" value="736" />
           <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="171" />
+          <entry key="CSS" value="176" />
           <entry key="JAVA" value="692" />
-          <entry key="PLAIN_TEXT" value="49" />
+          <entry key="PLAIN_TEXT" value="51" />
           <entry key="XHTML" value="736" />
           <entry key="XML" value="10" />
         </counts>
@@ -115,8 +116,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/resources/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+            <state relative-caret-position="176">
+              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -367,7 +368,7 @@
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540152158021" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540152591442" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -526,7 +527,7 @@
       <workItem from="1540043976702" duration="1130000" />
       <workItem from="1540052300131" duration="512000" />
       <workItem from="1540053816584" duration="166000" />
-      <workItem from="1540077887620" duration="7038000" />
+      <workItem from="1540077887620" duration="7400000" />
     </task>
     <task id="LOCAL-00001" summary="first commit from intellij">
       <created>1540052697465</created>
@@ -570,11 +571,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540150260233</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="minor updates 3">
+      <created>1540152464708</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540152464708</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90162000" />
+    <option name="totallyTimeSpent" value="90524000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -587,6 +595,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="23" width="1658" height="964" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25433168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -598,7 +607,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32949308" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32949308" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32912844" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39976957" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -609,7 +618,7 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32949308" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32949308" />
       <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32921812" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32912844" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32949308" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -706,7 +715,8 @@
     <MESSAGE value="first commit from intellij" />
     <MESSAGE value="second commit from intellij" />
     <MESSAGE value="minor updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor updates" />
+    <MESSAGE value="minor updates 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor updates 3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/out/artifacts/Testing123_war_exploded/index.xhtml">
@@ -810,8 +820,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/resources/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        <state relative-caret-position="176">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
         </state>
       </provider>
     </entry>

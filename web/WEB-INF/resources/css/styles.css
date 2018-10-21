@@ -69,8 +69,8 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: DarkGreen;
-    border-bottom: solid 1px DarkGreen;
+    color: red;
+    border-bottom: solid 1px red;
 }
 
 .lowerCase {
